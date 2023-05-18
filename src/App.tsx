@@ -6,7 +6,9 @@ function App() {
   const { displayName } = useParams();
   return (
     <>
-      <h1>Hello, {displayName ?? 'World'}!</h1>
+      <h1 className="hello">
+        Hello, {displayName ?? 'World'}!
+      </h1>
     </>
   )
 }
